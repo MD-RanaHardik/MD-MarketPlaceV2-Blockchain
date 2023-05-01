@@ -1,0 +1,24 @@
+[package]
+name = 'MD-NFTMarketplace'
+version = '1.0.0'
+
+[addresses]
+NFTMarketplace_res = "acf4a0ac740b9530686f91e2348d9fd7168290f4cfceb85f1838fcd121685414"
+Owner = "2384f639dfc446b19078f5eecfb858a3a382831e4854d87a81ed42603bc9c187"
+
+
+# [dependencies.AptosFramework]
+# git = 'https://github.com/aptos-labs/aptos-core.git'
+# rev = 'main'
+# subdir = 'aptos-move/framework/aptos-framework'
+
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-token'
